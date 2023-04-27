@@ -1,0 +1,66 @@
+body {
+  padding: 2.1875rem 4.375rem;
+}
+
+.login-form {
+  width: 25rem;
+}
+.login-form .field-error {
+  border: 1px solid red !important;
+}
+.login-form .form-fields {
+  display: flex;
+  flex-direction: column;
+}
+.login-form .form-fields:not(:last-child) {
+  margin-bottom: 20px;
+}
+.login-form .form-fields label {
+  font-size: 20px;
+  margin-bottom: 0.3125rem;
+}
+.login-form .form-fields .input-wrapper {
+  height: 1.875rem;
+  width: 18.75rem;
+}
+.login-form .form-fields .input-wrapper input {
+  height: 100%;
+  width: 100%;
+  border: 1px solid;
+  border-radius: 6px;
+  padding: 0 0.25rem;
+}
+.login-form .form-fields .error {
+  margin-top: 0.5rem;
+  color: red;
+}
+.login-form .radio-field .radio-buttons {
+  display: flex;
+  flex-direction: row;
+}
+.login-form .radio-field .radio-buttons .option {
+  border: 1px solid gray;
+  border-radius: 12px;
+  width: 150px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+}
+.login-form .radio-field .radio-buttons .option:first-child {
+  margin-right: 10px;
+}
+.login-form .radio-field .radio-buttons .option input {
+  margin: 0 0.625rem;
+}
+.login-form .submit-btn {
+  border: 1px solid;
+  font-size: 16px;
+  border-radius: 0.5rem;
+  height: 2rem;
+  width: 5rem;
+  text-align: center;
+  background-color: blue;
+  color: white;
+  border: transparent;
+  cursor: pointer;
+}/*# sourceMappingURL=App.css.map */
